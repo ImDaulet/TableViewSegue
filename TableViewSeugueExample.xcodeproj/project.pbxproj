@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20187B2527C1320B009634D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20187B2427C1320A009634D3 /* DetailViewController.swift */; };
 		206F3B0327BD293000880F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F3B0227BD293000880F7F /* AppDelegate.swift */; };
 		206F3B0527BD293000880F7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F3B0427BD293000880F7F /* SceneDelegate.swift */; };
 		206F3B0727BD293000880F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F3B0627BD293000880F7F /* ViewController.swift */; };
 		206F3B0A27BD293000880F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206F3B0827BD293000880F7F /* Main.storyboard */; };
 		206F3B0C27BD293100880F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206F3B0B27BD293100880F7F /* Assets.xcassets */; };
 		206F3B0F27BD293100880F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206F3B0D27BD293100880F7F /* LaunchScreen.storyboard */; };
+		206F3B1727BD3A5800880F7F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F3B1627BD3A5800880F7F /* Student.swift */; };
+		206F3B1927BE53FB00880F7F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F3B1827BE53FB00880F7F /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20187B2427C1320A009634D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		206F3AFF27BD293000880F7F /* TableViewSeugueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewSeugueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206F3B0227BD293000880F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		206F3B0427BD293000880F7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		206F3B0B27BD293100880F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		206F3B0E27BD293100880F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		206F3B1027BD293100880F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206F3B1627BD3A5800880F7F /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		206F3B1827BE53FB00880F7F /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				206F3B0227BD293000880F7F /* AppDelegate.swift */,
 				206F3B0427BD293000880F7F /* SceneDelegate.swift */,
 				206F3B0627BD293000880F7F /* ViewController.swift */,
+				206F3B1627BD3A5800880F7F /* Student.swift */,
 				206F3B0827BD293000880F7F /* Main.storyboard */,
 				206F3B0B27BD293100880F7F /* Assets.xcassets */,
 				206F3B0D27BD293100880F7F /* LaunchScreen.storyboard */,
 				206F3B1027BD293100880F7F /* Info.plist */,
+				206F3B1827BE53FB00880F7F /* CustomCell.swift */,
+				20187B2427C1320A009634D3 /* DetailViewController.swift */,
 			);
 			path = TableViewSeugueExample;
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			files = (
 				206F3B0727BD293000880F7F /* ViewController.swift in Sources */,
 				206F3B0327BD293000880F7F /* AppDelegate.swift in Sources */,
+				206F3B1927BE53FB00880F7F /* CustomCell.swift in Sources */,
+				20187B2527C1320B009634D3 /* DetailViewController.swift in Sources */,
 				206F3B0527BD293000880F7F /* SceneDelegate.swift in Sources */,
+				206F3B1727BD3A5800880F7F /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

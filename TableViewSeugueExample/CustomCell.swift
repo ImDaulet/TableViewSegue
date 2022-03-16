@@ -9,6 +9,14 @@ import UIKit
 
 class CustomCell: UITableViewCell {
 
+    
+    @IBOutlet weak var studentImageView: UIImageView!
+    
+    @IBOutlet weak var studentGpa: UILabel!
+    
+    @IBOutlet weak var studentName: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
